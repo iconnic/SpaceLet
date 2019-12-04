@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorDarkWindow"
+    android:clickable="true"
+    android:id="@+id/slide_space_details">
+
+    <RelativeLayout
+        android:layout_margin="32dp"
+        android:background="@drawable/curve_white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/space_back"
+        android:padding="8dp"
+        android:layout_margin="12dp"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/ic_back"/>
+
+    <TextView
+        android:id="@+id/space_title"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:text="@string/view_space"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="52dp"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:textColor="@color/colorDark"/>
+
+    <EditText
+        android:id="@+id/space_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/new_space_name"
+        android:maxLines="1"
+        android:maxLength="42"
+        android:textColor="@color/colorDark"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_below="@id/space_title"/>
+
+    <EditText
+        android:id="@+id/space_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/new_space_description"
+        android:textColor="@color/colorDark"
+        android:maxLines="2"
+        android:maxLength="72"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_below="@id/space_name"/>
+
+    <EditText
+        android:id="@+id/space_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/new_space_price"
+        android:textColor="@color/colorDark"
+        android:inputType="number"
+        android:maxLines="1"
+        android:maxLength="10"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_below="@id/space_description"/>
+
+    <TextView
+        android:id="@+id/space_update"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:text="@string/update_space"
+        android:gravity="center"
+        android:background="@drawable/curve_button"
+        android:layout_margin="12dp"
+        android:layout_alignParentBottom="true"
+        android:textStyle="bold"
+        android:textSize="12dp"
+        android:textColor="@color/colorLight"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

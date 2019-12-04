@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">SpaceLet</string>
+
+    <string name="app_exit">Press Back again to exit the application</string>
+
+    <string name="number_sections">Sections</string>
+    <string name="total_capacity">Total Capacity</string>
+    <string name="total_available">Total Available</string>
+    <string name="total_occupied">Total Occupied</string>
+    <string name="overall_total_occupied">Overall Total Occupied</string>
+    <string name="total_occupied_percent">Overall Occupied</string>
+    <string name="name_sections">Section Name</string>
+    <string name="available_sections">Section Spaces Available</string>
+    <string name="occupied_sections">Section Spaces Occupied</string>
+    <string name="capacity_sections">Section Capacity</string>
+
+    <string name="view_overall">Overall Summary</string>
+
+    <string name="view_section">View Available Sections</string>
+    <string name="view_section_instructions">No Sections available...Create Sections from the main menu</string>
+
+    <string name="new_section">Create New Section</string>
+    <string name="new_section_instructions">All fields are required to create a new section of rooms</string>
+
+    <string name="new_section_unique">Please enter a unique section Id</string>
+    <string name="new_section_name">Provide a name for the new section</string>
+    <string name="new_section_description">Add a description for the section</string>
+    <string name="new_section_capacity">What is the capacity of the section?</string>
+    <string name="new_section_address">Set your section address</string>
+
+    <string name="view_space">Space Detail</string>
+    <string name="update_space">Update Space Details</string>
+    <string name="update_success">Details Update Successful</string>
+
+    <string name="new_space_name">Provide a name for the new section</string>
+    <string name="new_space_description">Add a description for the section</string>
+    <string name="new_space_price">What is the price of the space?</string>
+
+    <string name="label_not_available">N/A</string>
+    <string name="label_section">Section</string>
+    <string name="label_space">Space</string>
+    <string name="label_default">Default</string>
+    <string name="label_complete">Complete</string>
+    <string name="label_loading">Loading...</string>
+    <string name="label_reports">Reports</string>
+    <string name="label_occupied">Occupied</string>
+    <string name="label_available">Available</string>
+    <string name="label_delete">Delete</string>
+    <string name="label_capacity">Capacity</string>
+    <string name="label_days">Day(s)</string>
+    <string name="label_hours">Hour(s)</string>
+    <string name="label_minutes">Minute(s)</string>
+    <string name="label_seconds">Second(s)</string>
+    <string name="label_ago">Ago</string>
+    <string name="label_summary">Summary Report</string>
+    <string name="label_all_sections">All Sections</string>
+
+    <string name="of_total">Of Total Occupied</string>
+
+    <string name="error_input">Please input correct information for required field</string>
+    <string name="error_load">Load Error. Please ensure there is an active network connection or consult your system admin</string>
+    <string name="error_filter">Processing Error. Something went wrong, please consult your system admin</string>
+
+    <array name="status_states">
+        <item>All States</item>
+        <item>Available</item>
+        <item>Occupied</item>
+    </array>
+
+    <array name="menu_titles">
+        <item>NEW ADDITION</item>
+        <item>SECTION INFO</item>
+        <item>OVERVIEW FILTER</item>
+    </array>
+
+    <array name="menu_names">
+        <item>Create New Sections</item>
+        <item>View Sections</item>
+        <item>Restriction View</item>
+    </array>
+
+    <array name="menu_descriptions">
+        <item>Add new section areas</item>
+        <item>See all available sections and their available spaces</item>
+        <item>See the total spaces with filter options</item>
+    </array>
+</resources>

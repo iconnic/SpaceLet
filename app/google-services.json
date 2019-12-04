@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "please replace this file with your own",
+    "firebase_url": "please replace this file with your own",
+    "project_id": "please replace this file with your own",
+    "storage_bucket": "please replace this file with your own"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "please replace this file with your own",
+        "android_client_info": {
+          "package_name": "com.artbycode.spacelet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "please replace this file with your own",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.artbycode.spacelet",
+            "certificate_hash": "please replace this file with your own"
+          }
+        },
+        {
+          "client_id": "please replace this file with your own",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "please replace this file with your own"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "please replace this file with your own",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
