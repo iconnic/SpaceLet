@@ -1,7 +1,7 @@
 # spaceLet
 An app that helps you track states (avialable/occupied) of spaces in real-time with Firebase
 
-Proof of concept app that leans more towards the technical execution of the concept. Showing how simple Firebase has made real-time communication of states of objects for practical real world solutions. 
+Proof of concept app. Showing how simple Firebase has made real-time communication of states of objects for practical use in real world solutions. 
 
 Please follow the steps to help you get started.
 
